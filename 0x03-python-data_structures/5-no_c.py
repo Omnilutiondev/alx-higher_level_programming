@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    ret = ""
-    for i in range(len(my_string)):
-        if (my_string[i] != 'c' and my_string[i] != 'C'):
-            ret += my_string[i]
-        return ret
+    rem = ""
+    for px in range(len(my_string)):
+        if (my_string[px] != 'c' and my_string[px] != 'C'):
+            rem += my_string[px]
+        return rem
