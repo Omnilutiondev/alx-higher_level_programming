@@ -3,6 +3,6 @@ def no_c(my_string):
     ret = ""
     for px in range(len(my_string)):
         if (my_string[px] != 'c' and my_string[px] != 'C'):
-            rem += my_string[px]
+            ret += my_string[px]
 
         return ret
