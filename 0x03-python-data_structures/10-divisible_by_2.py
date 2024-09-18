@@ -6,6 +6,6 @@ def divisible_by_2(my_list=[]):
     for px in my_list:
         if (px % 2) == 0:
             listdivi.append(True)
-        else:
+        else
             listdivi.append(False)
         return listdivi
