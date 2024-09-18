@@ -3,4 +3,4 @@ def print_reversed_list_integer(my_list=[]):
     if not my_list:
         return None
     for px in reversed(my_list):
-        print(":d".format(px))
+        print("{:d}".format(px))
