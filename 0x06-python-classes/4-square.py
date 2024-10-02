@@ -5,7 +5,7 @@
 class Square:
     """This defines a square."""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """The main constructor.
 
         Args:
@@ -43,6 +43,6 @@ class Square:
         """The area of this square.
 
         Return:
-        The size squared.
+            The size squared.
         """
         return self.__size ** 2
