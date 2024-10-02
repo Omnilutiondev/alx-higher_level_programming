@@ -23,13 +23,13 @@ class Square:
 
     @property
     def size(self):
-         """The property for the length of a side of this square.
+        """The property for the length of a side of this square.
 
-         Raises:
-            TypeError: If the size squared is not an integer.
-            ValueError: If the size is less than 0.
-         """
-         return self.__size
+            Raise:
+                TypeError: If the size squared is not an integer.
+                ValueError: If the size is less than 0.
+        """
+        return self.__size
 
     @size.setter
     def size(self, value):
