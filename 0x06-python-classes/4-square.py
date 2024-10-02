@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size):
         """The main constructor.
-            
+
         Args:
             size: The length of a side of the square.
 
@@ -15,19 +15,19 @@ class Square:
                 TypeError: If the instance size is not an integer
                 ValueError: If the instance size is less than 0
         """
-        if not instance(size, int):
+        if not isinstance(size, int):
             raise TypeError('size must be an integer')
         if size < 0:
             raise ValueError('size must be >= 0')
         self.__size = size
 
-    @propterty
+    @property
     def size(self):
          """The property for the length of a side of this square.
 
          Raises:
-         TypeError: If the size squared is not an integer.
-         ValueError: If the size is less than 0.
+            TypeError: If the size squared is not an integer.
+            ValueError: If the size is less than 0.
          """
          return self.__size
 
