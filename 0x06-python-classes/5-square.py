@@ -1,10 +1,3 @@
-#!/usr/bin/python3
-"""The Square module."""
-
-
-class Square:
-    """This defines a square."""
-
     def __init__(self, size=0):
         """The main constructor.
 
@@ -32,10 +25,10 @@ class Square:
         self.__size = value
 
     def area(self):
-        """The Area of this square,
+        """The Area of this square.
 
         Return:
-        The size squared.
+            The size squared.
         """
         return self.__size ** 2
 
@@ -43,6 +36,6 @@ class Square:
         """This prints this square."""
         for idx in range(self.size):
             for jdx in range(self.size):
-                print("#", end="\n" if jdx is self.size and idx != jdx else "")
+                print("#", end="\n" if jdx is self.size - 1 and idx != jdx else "")
         print()
 
