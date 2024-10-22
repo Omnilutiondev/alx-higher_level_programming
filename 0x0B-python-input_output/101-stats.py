@@ -7,7 +7,6 @@ and computes metrics
 from sys import stdin
 
 
-
 stat_codes = {
         '200': 0,
         '301': 0,
@@ -28,6 +27,7 @@ def printr():
     for key, value in sorted(stat_codes.items()):
         if value > 0:
             print('{:s}: {:d}'.format(key, value))
+
 
 try:
     for line in stdin:
