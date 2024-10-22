@@ -8,12 +8,12 @@ def pascal_triangle(n):
     if n <= 0:
         return []
 
-    ptriangle = ([1])
+    ptriangle = [[1]]
     while len(ptriangle) != n:
         ptr = ptriangle[-1]
         temp = [1]
-        for t in range(len(ptr) - 1):
-            temp.append(ptr[t] + ptr[t + 1])
+        for r in range(len(ptr) - 1):
+            temp.append(ptr[r] + ptr[r + 1])
         temp.append(1)
         ptriangle.append(temp)
     return ptriangle
