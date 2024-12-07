@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''The func for BaseGeometry class.'''
+'''The func BaseGeometry class.'''
 
 
 class BaseGeometry:
