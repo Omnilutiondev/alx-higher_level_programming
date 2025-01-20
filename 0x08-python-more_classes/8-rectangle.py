@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Class Rectangle create and decon """
+""" Class Rectangle Decon"""
 
 
 class Rectangle:
@@ -14,11 +14,12 @@ class Rectangle:
     repr() should return a str representation of the rectangle
      to be able to recreate a new inst by using eval()
     deconstructor method executed 'Bye rectangle...'
-    Public class asttrib number_of_instances
-    Public class asttrib print_symbol for string representation
+    Public class attrib number_of_instances
+    Public class attrib print_symbol for string representation
+    Static method def bigger_or_equal(rect_1, rect_2):
     """
 
-number_of_instances = 0
+    number_of_instances = 0
     print_symbol = '#'
 
     def __init__(self, width=0, height=0):
