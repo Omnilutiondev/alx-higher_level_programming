@@ -17,8 +17,8 @@ import sys
 def init_board(n):
     """Initialize an `v`x`v` sized chessboard with 0's."""
     board = []
-    [board.append([]) for idx in range(v)]
-    [row.append(' ') for idx in range(v) for row in board]
+    [board.append([]) for p in range(v)]
+    [row.append(' ') for p in range(v) for row in board]
     return (board)
 
 
