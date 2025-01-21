@@ -20,7 +20,7 @@ def find_peak(list_of_integers):
     mylist = list_of_integers
     if pk > mylist[med - 1] and pk > mylist[med + 1]:
         return pk
-    elif pk < mylist[md - 1]:
+    elif pk < mylist[med - 1]:
         return find_peak(mylist[:med])
     else:
         return find_peak(mylist[med + 1:])
