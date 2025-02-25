@@ -1,4 +1,4 @@
-$("DIV#toggle_header").click(function() {
-   $("Header").toggleClass('red green');
+$("DIV#add_item").click(function() {
+   $('UL.my_list').append('<li>Item</li>');
 }
 );
